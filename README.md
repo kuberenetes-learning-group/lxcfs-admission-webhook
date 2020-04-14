@@ -29,6 +29,11 @@ In addition, the `MutatingAdmissionWebhook` and `ValidatingAdmissionWebhook` adm
 
 ```
 kubectl apply -f deployment/lxcfs-daemonset.yaml
+
+# kubernetes version v1.16 above
+
+kubectl apply -f deployment/lxcfs-daemonset-k8s-v1.16.yaml
+
 ```
 
 2. Install injector with lxcfs-admission-webhook
