@@ -5,7 +5,7 @@ github.com/docker/distribution/reference
 github.com/evanphx/json-patch
 # github.com/ghodss/yaml v1.0.0
 github.com/ghodss/yaml
-# github.com/gogo/protobuf v1.0.0
+# github.com/gogo/protobuf v1.3.2
 github.com/gogo/protobuf/proto
 github.com/gogo/protobuf/sortkeys
 # github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
@@ -24,12 +24,12 @@ github.com/opencontainers/go-digest
 github.com/pkg/errors
 # github.com/spf13/pflag v1.0.0
 github.com/spf13/pflag
-# golang.org/x/net v0.0.0-20180313215339-892bf7b0c6e2
+# golang.org/x/net v0.0.0-20201021035429-f5854403a974
+golang.org/x/net/http/httpguts
 golang.org/x/net/http2
 golang.org/x/net/http2/hpack
 golang.org/x/net/idna
-golang.org/x/net/lex/httplex
-# golang.org/x/text v0.3.0
+# golang.org/x/text v0.3.3
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
